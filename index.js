@@ -5,7 +5,6 @@ const url = require('url');
 const slugify = require('slugify');
 
 const replaceTemplate = require('./modules/replaceTemplate');
-const { SlowBuffer } = require('buffer');
 // SERVER
 
 const tempOverview = fs.readFileSync(
